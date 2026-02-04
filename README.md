@@ -1,1 +1,3 @@
 # VLM_initialTest_Cifar10_FGSM-PGD_resnet50
+
+- 目的：对于CIFAR10的数据，同一训练一个resnet50的模型，然后分别用FGSM和PGD这两种攻击方法进行攻击并生成攻击图像数据集，然后计算CIFAR10, CIFAR10_FGSM, CIFAR10_PGD的模型性能
